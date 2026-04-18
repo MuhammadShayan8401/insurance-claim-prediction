@@ -34,10 +34,9 @@ insurance-claim-prediction/
 ---
 
 ## 🌐 Live Deployment
-
 🚀 The application is deployed on Streamlit Cloud:
 
-https://insurance-claim-prediction-hjne3ngt7kim52ym9gxxb4.streamlit.app/
+👉 **[Click here to open the app](https://insurance-claim-prediction-hjne3ngt7kim52ym9gxxb4.streamlit.app/)**
 ---
 
 ## 📊 Dataset
