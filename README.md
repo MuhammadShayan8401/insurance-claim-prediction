@@ -103,8 +103,6 @@ User Input → Preprocessing → Linear Regression Model → Prediction → Visu
 
 ## 📸 Screenshots
 
-> Add your Streamlit app screenshots below
-
 ### Dashboard View
 
 ![Dashboard](images/dashboard.png)
