@@ -1,4 +1,4 @@
-# 💰 Insurance Claim Prediction
+# 💰 Insurance Claim Prediction (Linear Regression)
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
@@ -11,7 +11,25 @@
 
 ## 📌 Objective
 
-To predict medical insurance claim charges based on personal attributes such as age, BMI, smoking status, and region using Linear Regression and provide an interactive web-based dashboard for analysis and prediction.
+To predict medical insurance claim charges based on personal attributes such as age, BMI, smoking status, and region using a **Linear Regression model**, and provide an interactive Streamlit dashboard for visualization and prediction.
+
+---
+
+## 📁 Project Structure
+
+```text
+insurance-claim-prediction/
+│
+├── data/
+│   └── insurance.csv
+│
+├── src/
+│   ├── app.py
+│   └── model.py
+│
+├── requirements.txt
+└── README.md
+```
 
 ---
 
@@ -41,7 +59,7 @@ Medical Cost Personal Dataset includes:
 
 * Data cleaning and preprocessing
 * Encoding categorical variables (sex, smoker, region)
-* Exploratory Data Analysis (EDA) using visualizations
+* Exploratory Data Analysis (EDA)
 * Feature correlation analysis
 * Model training using Linear Regression
 * Model evaluation using MAE and RMSE
@@ -49,15 +67,28 @@ Medical Cost Personal Dataset includes:
 
 ---
 
+## 🧠 Workflow
+
+User Input → Preprocessing → Linear Regression Model → Prediction → Visualization
+
+---
+
 ## 📈 Features of Dashboard
 
-* User input (sidebar form)
-* Real-time insurance charge prediction
+* Sidebar user input form
+* Real-time insurance cost prediction
 * BMI vs charges visualization
 * Age vs charges visualization
 * Smoking impact analysis
 * Feature correlation heatmap
 * Model evaluation metrics (MAE, RMSE)
+
+---
+
+## 📊 Model Evaluation
+
+* **MAE (Mean Absolute Error):** measures average prediction error
+* **RMSE (Root Mean Squared Error):** penalizes large errors more heavily
 
 ---
 
@@ -67,16 +98,26 @@ Medical Cost Personal Dataset includes:
 * Smoking status has the strongest impact on cost
 * BMI shows moderate positive correlation with charges
 * Age gradually increases insurance cost
-* Model evaluated using:
 
-  * MAE (Mean Absolute Error)
-  * RMSE (Root Mean Squared Error)
+---
+
+## 📸 Screenshots
+
+> Add your Streamlit app screenshots below
+
+### Dashboard View
+
+![Dashboard](images/dashboard.png)
+
+### Prediction Result
+
+![Prediction](images/prediction.png)
 
 ---
 
 ## 🧠 Model Explanation
 
-The Linear Regression model learns relationships between input features and insurance charges. Each feature contributes linearly:
+The Linear Regression model learns a linear relationship between input features and insurance charges:
 
 * Smoking → Strong positive impact
 * BMI → Moderate impact
@@ -85,15 +126,15 @@ The Linear Regression model learns relationships between input features and insu
 
 ---
 
-## 🛠️ Tools & Technologies
+## ⚙️ Tech Stack
 
 * Python
+* Streamlit
 * Pandas
 * NumPy
 * Matplotlib
 * Seaborn
 * Scikit-learn
-* Streamlit
 
 ---
 
@@ -114,4 +155,4 @@ Muhammad Shayan Ahmed
 
 ## 📌 Key Insight
 
-Smoking and BMI are the strongest factors affecting insurance charges in this dataset.
+Smoking and BMI are the strongest predictors of insurance charges in this dataset, significantly increasing medical costs.
